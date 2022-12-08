@@ -4,10 +4,10 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>io.playground</groupId>
-    <artifactId>extension-red-parent</artifactId>
+    <artifactId>extension-green-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
-  <artifactId>extension-red</artifactId>
+  <artifactId>extension-green</artifactId>
   <name>Playground - Extension Red - Runtime</name>
   <dependencyManagement>
     <dependencies>

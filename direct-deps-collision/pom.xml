@@ -9,8 +9,10 @@
   <name>Playground - Parent</name>
   <modules>
     <module>platform-bom</module>
+    <module>platform-base-bom</module>
     <module>extension-red</module>
     <module>extension-blue</module>
+    <module>extension-green</module>
     <module>app</module>
   </modules>
   <properties>

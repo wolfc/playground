@@ -14,19 +14,28 @@
     <dependencies>
       <dependency>
         <groupId>io.playground</groupId>
+        <artifactId>extension-green</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.playground</groupId>
         <artifactId>extension-red</artifactId>
         <version>${project.version}</version>
       </dependency>
+      <!--
       <dependency>
         <groupId>io.playground</groupId>
         <artifactId>extension-blue</artifactId>
         <version>${project.version}</version>
       </dependency>
+      -->
+      <!--
       <dependency>
         <groupId>antlr</groupId>
         <artifactId>antlr</artifactId>
         <version>2.7.5</version>
       </dependency>
+      -->
     </dependencies>
   </dependencyManagement>
 </project>

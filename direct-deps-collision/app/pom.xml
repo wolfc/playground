@@ -23,17 +23,24 @@
         <scope>import</scope>
       </dependency>
       <!-- override whatever is in the bom -->
+      <!--
       <dependency>
         <groupId>antlr</groupId>
         <artifactId>antlr</artifactId>
         <version>2.7.6</version>
       </dependency>
+      -->
     </dependencies>
   </dependencyManagement>
   <dependencies>
     <dependency>
       <groupId>io.playground</groupId>
       <artifactId>extension-blue</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.playground</groupId>
+      <artifactId>extension-green</artifactId>
     </dependency>
     <dependency>
       <groupId>io.playground</groupId>
